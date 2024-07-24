@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CD GAS LTD</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/main.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/main.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="CD GAS LTD Logo" class="logo">
+        <h1>Welcome to CD GAS LTD</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#booking">Booking</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Installation and repair of gas appliances such as central heating boilers, gas fireplaces, gas stoves, heat pumps, and hot water tanks.</li>
+                <li>New central heating and gas installations.</li>
+                <li>Landlord certificates.</li>
+                <li>Emergency services.</li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>CD GAS LTD is a Gas Safe registered company offering top-quality services at competitive prices. Serving Coventry and the surrounding areas (within 20 miles), we pride ourselves on our expertise and customer satisfaction.</p>
+            <p>Gas Safe License Number: 663392</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to schedule a service, please contact us at:</p>
+            <p>Email: <a href="mailto:cdgasltd@gmail.com">cdgasltd@gmail.com</a></p>
+            <p>Phone: <a href="tel:07858927355">07858927355</a></p>
+        </section>
+        <section id="booking">
+            <h2>Book an Appointment</h2>
+            <div id="calendar"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 CD GAS LTD</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
